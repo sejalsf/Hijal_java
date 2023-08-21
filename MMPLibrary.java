@@ -64,8 +64,8 @@ public HashMap<String,String> Bookappoinment() {
 	
 	WebElement time = driver1.findElement(By.name("time"));
 	Select sel = new Select(time);
-	expectedHmap.put("time","11Am");
-	sel.selectByVisibleText("11Am");
+	expectedHmap.put("time","12Am");
+	sel.selectByVisibleText("12Am");
 	
 	
 	
